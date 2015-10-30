@@ -39,8 +39,8 @@
                     <input type="password" name="password" placeholder="Password..." class="form-last-name form-control" id="password">
                 </div>
 
-                <button type="submit" class="btn">Login</button>
-
+                <button type="submit" class="btn btn-success">Login</button>
+                <a href="{{url('auth/register')}}"><button type="button" class="btn btn-danger">Register</button></a>
                 <a class="btn btn-link " href="{{ url('/password/email') }}">Forgot Your Password?</a>
             </form>
         </div>
