@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Webpage v.1</title>
+    <link href="{!! asset('css/fetch.css') !!}" rel="stylesheet" type="text/css" />
 </head>
 <body>
 @include('header')
